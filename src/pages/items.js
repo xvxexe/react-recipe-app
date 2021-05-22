@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 function Items({ title, cal, image, ingredients }) {
-  const [showIngredients, setShowIngredients] = useState("false");
+  const [showIngredients, setShowIngredients] = useState(false);
 
   const handleIngredients = () => {
     setShowIngredients(!showIngredients);
