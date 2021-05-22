@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 function Items({ title, cal, image, ingredients }) {
-  const [showIngredients, setShowIngredients] = useState(false);
+  const [showIngredients, setShowIngredients] = useState("false");
 
   const handleIngredients = () => {
     setShowIngredients(!showIngredients);
@@ -22,7 +22,7 @@ function Items({ title, cal, image, ingredients }) {
           <h3>Ingredients:</h3>
           {ingredients.map((ingredients) => (
             <li>{ingredients.text}</li>
-          ))}
+          ))}{" "}
         </div>
       </div>
     </div>
