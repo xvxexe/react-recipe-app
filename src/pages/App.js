@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import Items from "./items";
+import { Items } from "./items";
 
 function App() {
   const APP_ID = "ba377b51";
