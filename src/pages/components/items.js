@@ -20,8 +20,8 @@ function Items({ title, cal, image, ingredients }) {
       <div className="ing">
         <div id={`${showIngredients ? "list-off" : "list-on"}`}>
           <h3>Ingredients:</h3>
-          {ingredients.map((ingredients) => (
-            <li>{ingredients.text}</li>
+          {ingredients.map((arr) => (
+            <li>{arr.text}</li>
           ))}{" "}
         </div>
       </div>
